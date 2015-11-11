@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glossgroup id="glossgroup_kqg_dt5_yt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:glossarygroup.xsd">
+  <title>This is the title</title>
+  <glossentry id="ddl">
+    <glossterm>A glossterm</glossterm>
+    <glossdef>The def of the glossterm</glossdef>
+    <prolog/>
+    <glossBody/>
+  </glossentry>
+</glossgroup>

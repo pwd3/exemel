@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concept id="concept_cz4_wt5_yt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:concept.xsd">
+ <title>The title</title>
+ <shortdesc>The short description</shortdesc>
+ <conbody>
+  <p>the first paragraph.</p>
+ </conbody>
+</concept>

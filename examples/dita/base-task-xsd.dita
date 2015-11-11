@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="task_zsc_gs5_yt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+    <title>This is the title</title>
+    <shortdesc>This is the short description</shortdesc>
+    <taskbody>
+        <context>
+            <p>This is the first paragraph</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>This is the command for step 1.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

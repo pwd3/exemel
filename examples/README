@@ -1,0 +1,7 @@
+This directory contains examples of XML processing using the XML perl6 module.
+
+Each directory contains groups of examples, mostly by type of XML file.
+
+
+dita -- contains examples of processing DITA and DITAmap files (mostly generated
+by oXygen XML editor.
