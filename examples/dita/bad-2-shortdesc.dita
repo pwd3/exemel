@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reference id="reference_hlb_4s5_yt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:reference.xsd">
+  <title>This is the title</title>
+  <shortdesc>This is the short description</shortdesc>
+  <shortdesc>This is a second shortdesc ----BAD----</shortdesc>
+  <refbody>
+  </refbody>
+</reference>
