@@ -22,6 +22,20 @@ sub MAIN ($infile, $outfile ) {
 		}
 	else {
 		say "We don't have a shortdesc, we will need to insert one";
+
+		my $bodytype = 'body';
+
+		my @body = $xml.getElementsByTagName($bodytype);
+		if @body.elems == 1 {
+			$xml.before( @body[0], XML::Element.new(:name<shortdesc>, :nodes(['The short description'])));
+			}
+		elsif @body.elems > 1 {
+			die "That's odd, we have more than one body ";
+			}
+		else {
+			die "We have no body element";
+			}
+		
 		}
 	
 	my $fh = open $outfile, :w;
