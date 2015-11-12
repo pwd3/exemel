@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="topic_test1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:topic.xsd">
+  <title>This is a complex topic</title>
+  <titlealts>
+    <navtitle>This is the navtitle</navtitle>
+    <searchtitle>This is the searchtitle</searchtitle>
+  </titlealts>
+  <shortdesc>This is the short description</shortdesc>
+  <body>
+    <section>
+      <title>A Section title</title>
+      <p>This is a paragraph inside a section</p>
+      <note type="note">This is a note of type "note"</note>
+      <note type="attention">This is a note of type "attention" </note>
+      <note type="important">This is a note of type "important"</note>
+      <note type="caution">This is a note of type "caution" </note>
+      <note type="danger">This is a note of type "danger"</note>
+      <note type="important">This is a note of type "important"</note>
+      <note type="notice">This is a note of type "notice"</note>
+      <note type="restriction">This is a note of type "restriction"</note>
+      <note type="tip">This is a note of type "tip"</note>
+      <note type="other">This is a note of type "other"</note>
+      <note type="notice">This is a note of type "notice"</note>
+      <note type="remember">This is a note of type "remember"</note>
+      <note type="fastpath">This is a note of type "fastpath"</note>
+      <note type="warning">This is a note of type "warning"</note>
+      <draft-comment author="pwd">This is a draft comment (reviews comments or request for review)</draft-comment>
+    </section>
+    <section>
+      <title>The second Section</title>
+      <table>
+        <tgroup cols="3">
+          <tbody>
+            <row>
+              <entry>Thingy</entry>
+              <entry>Thing 2</entry>
+              <entry>Thing 3</entry> 
+            </row>
+            <row>
+              <entry>Thingy</entry>
+              <entry>Thing 2</entry>
+              <entry>Thing 3</entry> 
+            </row>
+            <row>
+              <entry>Thingy</entry>
+              <entry>Thing 2</entry>
+              <entry>Thing 3</entry> 
+            </row>
+            <row>
+              <entry>Thingy</entry>
+              <entry>Thing 2</entry>
+              <entry>Thing 3</entry> 
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <lq>This is a long quote in a separate paragraph.</lq>
+      <p>This is a paragraph <q>with a quote</q>. It also has a phrase <ph
+          id="thing_to_use_elseware">Phrase with id</ph> that can be referenced elsewhere with a
+        conref</p>
+    </section>
+    <section>
+      <title>Still another Section</title>
+      <p>An ordered List
+      <ol>
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Item Three</li>
+      </ol>
+      </p>
+      <p>An unordered List
+        <ul>
+          <li>First Item</li>
+          <li>Second Item</li>
+          <li>Item Three</li>
+        </ul>
+      </p>
+      
+     <p> a definition list
+       <dl>
+         <dlentry>
+           <dt>Foo</dt>
+           <dd>The first placeholder</dd>
+         </dlentry>
+         <dlentry>
+           <dt>Bas</dt>
+           <dd>The second placeholder</dd>
+         </dlentry><dlentry>
+           <dt>Bar</dt>
+           <dd>Another placeholder</dd>
+         </dlentry>
+       </dl>
+     </p>
+      <p>A simple List
+        <sl>
+          <sli>First Item</sli>
+          <sli>Second Item</sli>
+          <sli>Item Three</sli>
+        </sl>
+      </p>
+    </section>
+  </body>
+</topic>
